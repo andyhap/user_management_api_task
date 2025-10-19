@@ -1,6 +1,6 @@
 ## How to Use
 
-###create file. env
+#create file. env
 First, make sure to create a .env file in the root project and fill it with the following format:
 
 ```bash
@@ -20,7 +20,7 @@ JWT_SECRET=(jwt secret)
 - Cloudinary credentials can be obtained from: https://cloudinary.com/
 - JWT secret can be generated from: https://www.jwt.io/
 
-### Running user_management_api
+# Running user_management_api
 Next, you can run the user_management_api by typing:
 
 ```bash
@@ -36,7 +36,7 @@ If successful, a message will appear in the terminal:
 ```
 
 
-### Testing Using Postman
+# Testing Using Postman
 After running and seeing the message "Server running on port 5000" in the terminal, enter the local host link http://localhost:5000/api/(auth or user)/(action for auth or user).
 
 ```bash
@@ -55,7 +55,7 @@ Authorization: Bearer <jwt_token_kamu>
 ```
 
 
-### Documentation with Swagger
+# Documentation with Swagger
 After running, open your browser and go to the local host link:
 
 ```bash
@@ -63,4 +63,5 @@ http://localhost:5000/api-docs. Dengan begitu
 ```
 
 setelah dibuka. akan muncul tampilan dokumentasi interaktif dengan Swagger UI.
+
 
