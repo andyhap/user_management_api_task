@@ -4,6 +4,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import authRoutes from './src/routes/authRoutes.js';
 import userRoutes from './src/routes/userRoutes.js';
+import { swaggerUi, swaggerSpec } from './src/config/swagger.js';
 
 dotenv.config();
 
@@ -16,6 +17,9 @@ app.use(cors({
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }))
 app.use(helmet());
+
+// Swagger
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // routes
 app.use('/api/auth', authRoutes);
