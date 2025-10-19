@@ -60,10 +60,11 @@ Authorization: Bearer <jwt_token>
 After running, open your browser and go to the local host link:
 
 ```bash
-http://localhost:5000/api-docs. Dengan begitu
+http://localhost:5000/api-docs
 ```
 
-setelah dibuka. akan muncul tampilan dokumentasi interaktif dengan Swagger UI.
+After opening it, an interactive documentation display with Swagger UI will appear.
+
 
 
 
