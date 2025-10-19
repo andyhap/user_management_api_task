@@ -52,7 +52,7 @@ After running and seeing the message "Server running on port 5000" in the termin
 catatan:
 All /users endpoints require an Authorization header:
 ```bash
-Authorization: Bearer <jwt_token_kamu>
+Authorization: Bearer <jwt_token>
 ```
 
 
@@ -64,5 +64,6 @@ http://localhost:5000/api-docs. Dengan begitu
 ```
 
 setelah dibuka. akan muncul tampilan dokumentasi interaktif dengan Swagger UI.
+
 
 
