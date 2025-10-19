@@ -10,7 +10,7 @@ DB_USER=postgres
 DB_HOST=localhost
 DB_NAME=(your db name)
 DB_PASS=(your db password)
-DB_PORT+(your cb port)
+DB_PORT=(your cb port)
 CLOUDINARY_NAME=(your cloudinary name)
 CLOUDINARY_KEY=(your cloudinary key)
 CLOUDINARY_SECRET=(your caludinary secret)
