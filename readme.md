@@ -22,7 +22,7 @@ JWT_SECRET=(jwt secret)
 - JWT secret can be generated from: https://www.jwt.io/
 
 ## Make sure the folder structure matches the image.
-<img width="273" height="491" alt="image" src="https://github.com/user-attachments/assets/bc541721-542d-4d6a-8f71-fc807a0e11b3" />
+<img width="283" height="532" alt="image" src="https://github.com/user-attachments/assets/323825f0-a616-480e-8a90-1c991aaab3ea" />
 
 
 ## Running user_management_api
@@ -85,6 +85,7 @@ All user-related features can be executed directly since the token has already b
 2. POST – Upload user avatar
 3. PUT – Update user 
 4. DELETE – Delete user
+
 
 
 
