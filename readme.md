@@ -61,6 +61,8 @@ Authorization: Bearer <jwt_token>
 
 <img width="1916" height="1026" alt="image" src="https://github.com/user-attachments/assets/a4f94cdc-cf50-445e-9573-af55eb04217b" />
 
+see postman documentation here: https://documenter.getpostman.com/view/49108277/2sB3QRnSrq
+
 
 
 ## Documentation with Swagger
@@ -85,6 +87,7 @@ All user-related features can be executed directly since the token has already b
 2. POST – Upload user avatar
 3. PUT – Update user 
 4. DELETE – Delete user
+
 
 
 
